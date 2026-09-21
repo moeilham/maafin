@@ -14,7 +14,6 @@ yesBtn.addEventListener('click', () => {
   question.innerHTML = 'yeeeey'
   questionTwo.innerHTML = 'tiimaacii yaa my love'
   questionThree.innerHTML = '😍'
-
   btnGroup.style.display = 'none'
 
   const iframe = document.querySelector('.gif iframe')
@@ -28,6 +27,6 @@ noBtn.addEventListener('click', () => {
   noBtn.style.top = j + 'px';
 
   const iframe = document.querySelector('.gif iframe');
-  iframe.src = 'https://giphy.com/embed/osLWTRRtDXe29iYmcL';
+  iframe.src = 'https://giphy.com/embed/yIMbgB6AmsahkY3jHH';
 });
 
