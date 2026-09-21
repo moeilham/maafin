@@ -117,12 +117,19 @@ button {
   font-weight: 700;
   color: #ffffff;
   box-shadow: 0 8px 18px rgba(0, 132, 199, 0.2);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, left 0.2s ease, top 0.2s ease;
 }
 
 button:hover { transform: translateY(-2px) scale(1.03); }
 button:nth-child(1) { margin-left: -120px; background: #0284c7; }
 button:nth-child(2) { margin-right: -120px; background: #ffffff; color: #075985; }
+
+/* After the first click, the No button is positioned inside the card. */
+.no-btn.escaping {
+  position: fixed;
+  z-index: 10;
+  margin: 0;
+}
 
 @keyframes floatCard {
   0%, 100% { transform: translateX(-50%) translateY(0); }
