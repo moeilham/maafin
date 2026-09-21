@@ -16,7 +16,6 @@ yesBtn.addEventListener('click', () => {
   questionThree.innerHTML = 'yaa my love'
   questionFour.innerHTML = '😍'
   btnGroup.style.display = 'none'
-
   const iframe = document.querySelector('.gif iframe')
   iframe.src = 'https://giphy.com/embed/euW6JDwrMn0BqyNC8t'
 })
