@@ -14,9 +14,9 @@ const updateGif = (src) => {
 
 yesBtn.addEventListener('click', () => {
   question.textContent = 'yeeeey'
-  questionTwo.textContent = 'tiimaacii yaa my love'
-  questionThree.textContent = 'yaa my love'
-  questionFour.textContent = '😍'
+  questionTwo.textContent = 'tiimaacii yaa'
+  questionThree.textContent = 'my love'
+  questionFour.textContent = '😍❤️'
   btnGroup.style.display = 'none'
   updateGif('https://media.giphy.com/media/euW6JDwrMn0BqyNC8t/giphy.gif')
 })
